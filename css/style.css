@@ -58,3 +58,25 @@ slide:hover {
   background: darkorange;
 }
 
+.arrow-nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  right: 20px;
+  transform: translateY(10px);
+}
+
+.arrow-nav button {
+  width: 25px;
+  height: 25px;
+  background: darkorange url("../img/arrow.svg") center center no-repeat;
+  border: none;
+}
+
+.arrow-nav button.prev {
+  transform: rotate(-180deg);
+}
+
